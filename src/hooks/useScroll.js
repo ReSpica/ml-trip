@@ -20,7 +20,7 @@ export default function useScroll(elRef) {
     }
     console.log(clientHeight.value + scrollTop.value, scrollHeight.value);
     if (clientHeight.value + scrollTop.value >= scrollHeight.value - 1) {
-      console.log('到底了');
+      console.log('到底了!');
       isReachBottom.value = true;
     }
   };
